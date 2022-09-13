@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background: black;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: anim 0.3s ease-in-out alternate-reverse infinite;
+    -webkit-animation: anim 0.3s ease-in-out alternate infinite;
+}
+
+/* p{
+    border: 1px solid rgb(165, 60, 60);
+    width: 200px;
+    height: 40px;
+    color: white;
+    background: #333;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+p:hover{
+    color: #333;
+    background: white;
+}
+
+p:active{
+    border: outset;
+} */
+
+.cont{
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+}
+
+.cont h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+.cont h2{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-70.5%, -30%);
+    -webkit-transform: translate(-70.5%, -30%);
+    -moz-transform: translate(-70.5%, -30%);
+    -ms-transform: translate(-70.5%, -30%);
+    -o-transform: translate(-70.5%, -30%);
+    font-size: 50px;
+}
+
+.cont h3{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-72%, 35%);
+    -webkit-transform: translate(-72%, 35%);
+    -moz-transform: translate(-72%, 35%);
+    -ms-transform: translate(-72%, 35%);
+    -o-transform: translate(-72%, 35%);
+    font-size: 50px;
+}
+
+@keyframes anim {
+    from{
+        background-color: white;
+        color: black;
+    }
+    to{
+        background-color: black;
+        color: white;
+    }
+}
